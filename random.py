@@ -7,8 +7,7 @@ mainLoop = []
 
 #Guess loop
 while True:
-	mainLoop = int(input("Guess the number: "))
-	if mainLoop == randoNum:
+	if (mainLoop := int(input("Guess the number: "))) == randoNum:
 		break
 	if mainLoop > randoNum:
 		print("Lower")
