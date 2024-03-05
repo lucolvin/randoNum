@@ -1,6 +1,7 @@
 #Create a random number to input in the guess loop
-import random
-randoNum = random.randrange(1,10)
+import secrets
+
+randoNum = secrets.SystemRandom().randrange(1,10)
 mainLoop = []
 #Test
 #print(randoNum)
